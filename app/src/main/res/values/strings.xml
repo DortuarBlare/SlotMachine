@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SlotMachine</string>
+    <string name="slot_machine">slot_machine</string>
+    <string name="button_text">Испытать удачу</string>
+</resources>

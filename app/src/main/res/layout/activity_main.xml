@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#61B2C6" android:gravity="center_horizontal">
+
+    <Button
+            android:text="@string/button_text"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" android:id="@+id/button2" android:gravity="center_horizontal"
+            android:layout_weight="0"/>
+    <ImageView
+            android:layout_width="134dp"
+            android:layout_height="157dp" app:srcCompat="@drawable/coin" android:id="@+id/imageView8"
+            android:layout_gravity="center_horizontal"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="446dp" android:layout_weight="1" android:layout_gravity="bottom|center"
+    >
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="310dp"
+                android:src="@drawable/slot_machine1"
+                android:id="@+id/imageView"
+                tools:layout_editor_absoluteY="264dp"
+                tools:layout_editor_absoluteX="0dp"
+                android:contentDescription="@string/slot_machine"
+                android:layout_gravity="bottom|center|center_horizontal"
+        />
+        <ImageView
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/slot_symbol1"
+                android:id="@+id/imageView9"
+                android:layout_gravity="bottom|center_horizontal"
+                android:translationY="-90dp"
+                android:translationX="-62dp"/>
+        <ImageView
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/slot_symbol1"
+                android:id="@+id/imageView10"
+                android:layout_gravity="bottom|center_horizontal"
+                android:translationY="-90dp"
+                android:translationX="2dp"/>
+        <ImageView
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/slot_symbol1"
+                android:id="@+id/imageView11"
+                android:layout_gravity="bottom|center_horizontal"
+                android:translationY="-90dp"
+                android:translationX="66dp"/>
+    </FrameLayout>
+</LinearLayout>
