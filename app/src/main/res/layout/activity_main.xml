@@ -23,38 +23,47 @@
     >
 
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="310dp"
+                android:layout_width="match_parent"
+                android:layout_height="305dp"
                 android:src="@drawable/slot_machine1"
-                android:id="@+id/imageView"
+                android:id="@+id/slot_machine"
                 tools:layout_editor_absoluteY="264dp"
                 tools:layout_editor_absoluteX="0dp"
                 android:contentDescription="@string/slot_machine"
                 android:layout_gravity="bottom|center|center_horizontal"
         />
         <ImageView
-                android:layout_width="72dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/slot_symbol1"
-                android:id="@+id/imageView9"
+                android:id="@+id/symbol1"
                 android:layout_gravity="bottom|center_horizontal"
                 android:translationY="-90dp"
                 android:translationX="-62dp"/>
         <ImageView
-                android:layout_width="72dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/slot_symbol1"
-                android:id="@+id/imageView10"
+                app:srcCompat="@drawable/slot_symbol2"
+                android:id="@+id/symbol2"
                 android:layout_gravity="bottom|center_horizontal"
                 android:translationY="-90dp"
                 android:translationX="2dp"/>
         <ImageView
-                android:layout_width="72dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/slot_symbol1"
-                android:id="@+id/imageView11"
+                app:srcCompat="@drawable/slot_symbol3"
+                android:id="@+id/symbol3"
                 android:layout_gravity="bottom|center_horizontal"
                 android:translationY="-90dp"
                 android:translationX="66dp"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="309dp" app:srcCompat="@drawable/slot_machine_bottom"
+                android:id="@+id/slot_machine_bottom" android:layout_gravity="bottom"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="306dp" app:srcCompat="@drawable/slot_machine_top"
+                android:id="@+id/slot_machine_top" android:layout_gravity="bottom|center_horizontal"
+        />
     </FrameLayout>
 </LinearLayout>
